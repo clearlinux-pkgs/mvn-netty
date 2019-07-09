@@ -4,13 +4,15 @@
 #
 Name     : mvn-netty
 Version  : 3.10.6.final
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
 Source0  : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
 Source1  : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
+Source2  : https://repo1.maven.org/maven2/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.jar
+Source3  : https://repo1.maven.org/maven2/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
-License  : Apache-2.0 BSD-3-Clause LGPL-2.1
+License  : Apache-2.0 BSD-3-Clause LGPL-2.1 MIT
 Requires: mvn-netty-data = %{version}-%{release}
 
 %description
@@ -35,6 +37,12 @@ cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.F
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final
 cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
+
 
 %files
 %defattr(-,root,root,-)
@@ -43,3 +51,5 @@ cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.F
 %defattr(-,root,root,-)
 /usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
 /usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.jar
+/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.pom
