@@ -4,17 +4,25 @@
 #
 Name     : mvn-netty
 Version  : 3.10.6.final
-Release  : 3
+Release  : 4
 URL      : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
 Source0  : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
-Source1  : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
-Source2  : https://repo1.maven.org/maven2/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.jar
-Source3  : https://repo1.maven.org/maven2/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.pom
-Source4  : https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar
-Source5  : https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom
+Source1  : https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom
+Source2  : https://repo1.maven.org/maven2/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.jar
+Source3  : https://repo1.maven.org/maven2/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.pom
+Source4  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.0.23.Final/netty-parent-4.0.23.Final.pom
+Source5  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.13.Final/netty-parent-4.1.13.Final.pom
+Source6  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.17.Final/netty-parent-4.1.17.Final.pom
+Source7  : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
+Source8  : https://repo1.maven.org/maven2/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.jar
+Source9  : https://repo1.maven.org/maven2/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.pom
+Source10  : https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar
+Source11  : https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom
+Source12  : https://repo1.maven.org/maven2/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar
+Source13  : https://repo1.maven.org/maven2/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
-License  : Apache-2.0 BSD-3-Clause LGPL-2.1 MIT
+License  : Apache-2.0 BSD-3-Clause LGPL-2.1 MIT Public-Domain
 Requires: mvn-netty-data = %{version}-%{release}
 
 %description
@@ -36,20 +44,44 @@ data components for the mvn-netty package.
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final
 cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.23.Final
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.23.Final
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.23.Final
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.23.Final
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.13.Final
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.13.Final
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.17.Final
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.17.Final
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final
 
 
 %files
@@ -57,9 +89,17 @@ cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Fi
 
 %files data
 %defattr(-,root,root,-)
+/usr/share/java/.m2/repository/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.jar
+/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.23.Final/netty-parent-4.0.23.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.13.Final/netty-parent-4.1.13.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.17.Final/netty-parent-4.1.17.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
 /usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.jar
 /usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar
 /usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar
+/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.pom
