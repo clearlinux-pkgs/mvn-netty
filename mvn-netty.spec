@@ -4,7 +4,7 @@
 #
 Name     : mvn-netty
 Version  : 3.10.6.final
-Release  : 5
+Release  : 6
 URL      : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
 Source0  : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
 Source1  : https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom
