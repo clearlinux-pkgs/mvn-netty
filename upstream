@@ -33,3 +33,17 @@ ef70102d7a40e609919fbb38dcca50ca84f453d1/netty-parent-4.0.33.Final.pom
 7084410223d86bba7f9bb0558779c1aff447f067/netty-parent-4.1.16.Final.pom
 8761a31cf28a7137dbbae29f382e998880d86bb6/netty-parent-4.1.6.Final.pom
 fd595c63336896b149ee8240f9ae4189810acaa7/netty-parent-4.1.8.Final.pom
+dc1a304ee7c448bfa241f60c41948db6f12b653b/netty-buffer-4.1.6.Final.jar
+5bdd5d25be073aa43439a0127b9ce04eeac53bba/netty-buffer-4.1.6.Final.pom
+086ce3c559af6759a0b991b9ad2faec20981e18e/netty-codec-4.1.6.Final.jar
+694297beaf48c07355b2782c2d893950e0f433ac/netty-codec-4.1.6.Final.pom
+ee6c65cb3f39f212241e9131dc05a837e776fd70/netty-codec-http-4.1.6.Final.jar
+7d77a7bf3b96d903edad5b3a0afec125549568e4/netty-codec-http-4.1.6.Final.pom
+654e4d8e87bc442be5c1d82d0369a3885f7168ea/netty-common-4.1.6.Final.jar
+7875a94a5e84efd6df0413e16b8b94e72c2de45c/netty-common-4.1.6.Final.pom
+a24e92d67e467a3b97ff63642ab56637990685fd/netty-handler-4.1.6.Final.jar
+a110112ebe90748a9ee921d719cf8b0dca3bf32e/netty-handler-4.1.6.Final.pom
+2a1c97445b6aa544cd029faa72abfb3f85e9957e/netty-resolver-4.1.6.Final.jar
+3c2a52ab930243b9d681925af4606ebd16430a80/netty-resolver-4.1.6.Final.pom
+4cba91ad2711c13a063d480f01edf70aa3f9387d/netty-transport-4.1.6.Final.jar
+0ef378151b2366f2a32437f3476582ab3241bfab/netty-transport-4.1.6.Final.pom

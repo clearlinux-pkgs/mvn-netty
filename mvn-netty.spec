@@ -4,48 +4,64 @@
 #
 Name     : mvn-netty
 Version  : 3.10.6.final
-Release  : 9
+Release  : 10
 URL      : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
 Source0  : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
 Source1  : https://repo.maven.apache.org/maven2/io/netty/netty-all/4.0.44.Final/netty-all-4.0.44.Final-sources.jar
 Source2  : https://repo.maven.apache.org/maven2/io/netty/netty-all/4.0.44.Final/netty-all-4.0.44.Final.jar
 Source3  : https://repo.maven.apache.org/maven2/io/netty/netty-all/4.0.44.Final/netty-all-4.0.44.Final.pom
-Source4  : https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.0.44.Final/netty-parent-4.0.44.Final.pom
-Source5  : https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar
-Source6  : https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom
-Source7  : https://repo1.maven.org/maven2/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final.jar
-Source8  : https://repo1.maven.org/maven2/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final.pom
-Source9  : https://repo1.maven.org/maven2/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.jar
-Source10  : https://repo1.maven.org/maven2/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.pom
-Source11  : https://repo1.maven.org/maven2/io/netty/netty-all/4.1.8.Final/netty-all-4.1.8.Final.jar
-Source12  : https://repo1.maven.org/maven2/io/netty/netty-all/4.1.8.Final/netty-all-4.1.8.Final.pom
-Source13  : https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.0.24.Final/netty-codec-socks-4.0.24.Final.jar
-Source14  : https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.0.24.Final/netty-codec-socks-4.0.24.Final.pom
-Source15  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.0.23.Final/netty-parent-4.0.23.Final.pom
-Source16  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.0.24.Final/netty-parent-4.0.24.Final.pom
-Source17  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.0.33.Final/netty-parent-4.0.33.Final.pom
-Source18  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.0.52.Final/netty-parent-4.0.52.Final.pom
-Source19  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.13.Final/netty-parent-4.1.13.Final.pom
-Source20  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.16.Final/netty-parent-4.1.16.Final.pom
-Source21  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.17.Final/netty-parent-4.1.17.Final.pom
-Source22  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.6.Final/netty-parent-4.1.6.Final.pom
-Source23  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.8.Final/netty-parent-4.1.8.Final.pom
-Source24  : https://repo1.maven.org/maven2/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.jar
-Source25  : https://repo1.maven.org/maven2/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.pom
-Source26  : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
-Source27  : https://repo1.maven.org/maven2/io/netty/netty/3.4.0.Final/netty-3.4.0.Final.jar
-Source28  : https://repo1.maven.org/maven2/io/netty/netty/3.4.0.Final/netty-3.4.0.Final.pom
-Source29  : https://repo1.maven.org/maven2/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.jar
-Source30  : https://repo1.maven.org/maven2/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.pom
-Source31  : https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar
-Source32  : https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom
-Source33  : https://repo1.maven.org/maven2/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar
-Source34  : https://repo1.maven.org/maven2/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.pom
+Source4  : https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.6.Final/netty-buffer-4.1.6.Final.jar
+Source5  : https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.6.Final/netty-buffer-4.1.6.Final.pom
+Source6  : https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.6.Final/netty-codec-http-4.1.6.Final.jar
+Source7  : https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.6.Final/netty-codec-http-4.1.6.Final.pom
+Source8  : https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.6.Final/netty-codec-4.1.6.Final.jar
+Source9  : https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.6.Final/netty-codec-4.1.6.Final.pom
+Source10  : https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.6.Final/netty-common-4.1.6.Final.jar
+Source11  : https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.6.Final/netty-common-4.1.6.Final.pom
+Source12  : https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.6.Final/netty-handler-4.1.6.Final.jar
+Source13  : https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.6.Final/netty-handler-4.1.6.Final.pom
+Source14  : https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.0.44.Final/netty-parent-4.0.44.Final.pom
+Source15  : https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.6.Final/netty-resolver-4.1.6.Final.jar
+Source16  : https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.6.Final/netty-resolver-4.1.6.Final.pom
+Source17  : https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.6.Final/netty-transport-4.1.6.Final.jar
+Source18  : https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.6.Final/netty-transport-4.1.6.Final.pom
+Source19  : https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar
+Source20  : https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom
+Source21  : https://repo1.maven.org/maven2/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final.jar
+Source22  : https://repo1.maven.org/maven2/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final.pom
+Source23  : https://repo1.maven.org/maven2/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.jar
+Source24  : https://repo1.maven.org/maven2/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.pom
+Source25  : https://repo1.maven.org/maven2/io/netty/netty-all/4.1.8.Final/netty-all-4.1.8.Final.jar
+Source26  : https://repo1.maven.org/maven2/io/netty/netty-all/4.1.8.Final/netty-all-4.1.8.Final.pom
+Source27  : https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.0.24.Final/netty-codec-socks-4.0.24.Final.jar
+Source28  : https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.0.24.Final/netty-codec-socks-4.0.24.Final.pom
+Source29  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.0.23.Final/netty-parent-4.0.23.Final.pom
+Source30  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.0.24.Final/netty-parent-4.0.24.Final.pom
+Source31  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.0.33.Final/netty-parent-4.0.33.Final.pom
+Source32  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.0.52.Final/netty-parent-4.0.52.Final.pom
+Source33  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.13.Final/netty-parent-4.1.13.Final.pom
+Source34  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.16.Final/netty-parent-4.1.16.Final.pom
+Source35  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.17.Final/netty-parent-4.1.17.Final.pom
+Source36  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.6.Final/netty-parent-4.1.6.Final.pom
+Source37  : https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.8.Final/netty-parent-4.1.8.Final.pom
+Source38  : https://repo1.maven.org/maven2/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.jar
+Source39  : https://repo1.maven.org/maven2/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.pom
+Source40  : https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
+Source41  : https://repo1.maven.org/maven2/io/netty/netty/3.4.0.Final/netty-3.4.0.Final.jar
+Source42  : https://repo1.maven.org/maven2/io/netty/netty/3.4.0.Final/netty-3.4.0.Final.pom
+Source43  : https://repo1.maven.org/maven2/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.jar
+Source44  : https://repo1.maven.org/maven2/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.pom
+Source45  : https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar
+Source46  : https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom
+Source47  : https://repo1.maven.org/maven2/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar
+Source48  : https://repo1.maven.org/maven2/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause LGPL-2.1 MIT Public-Domain
 Requires: mvn-netty-data = %{version}-%{release}
 Requires: mvn-netty-license = %{version}-%{release}
+BuildRequires : apache-maven
+BuildRequires : buildreq-mvn
 
 %description
 No detailed description available
@@ -97,98 +113,140 @@ cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.44.Final
 cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.44.Final/netty-all-4.0.44.Final.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-buffer/4.1.6.Final
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-buffer/4.1.6.Final/netty-buffer-4.1.6.Final.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-buffer/4.1.6.Final
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-buffer/4.1.6.Final/netty-buffer-4.1.6.Final.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec-http/4.1.6.Final
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec-http/4.1.6.Final/netty-codec-http-4.1.6.Final.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec-http/4.1.6.Final
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec-http/4.1.6.Final/netty-codec-http-4.1.6.Final.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec/4.1.6.Final
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec/4.1.6.Final/netty-codec-4.1.6.Final.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec/4.1.6.Final
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec/4.1.6.Final/netty-codec-4.1.6.Final.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-common/4.1.6.Final
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-common/4.1.6.Final/netty-common-4.1.6.Final.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-common/4.1.6.Final
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-common/4.1.6.Final/netty-common-4.1.6.Final.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-handler/4.1.6.Final
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-handler/4.1.6.Final/netty-handler-4.1.6.Final.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-handler/4.1.6.Final
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-handler/4.1.6.Final/netty-handler-4.1.6.Final.pom
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.44.Final
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.44.Final/netty-parent-4.0.44.Final.pom
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.44.Final/netty-parent-4.0.44.Final.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-resolver/4.1.6.Final
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-resolver/4.1.6.Final/netty-resolver-4.1.6.Final.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-resolver/4.1.6.Final
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-resolver/4.1.6.Final/netty-resolver-4.1.6.Final.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-transport/4.1.6.Final
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-transport/4.1.6.Final/netty-transport-4.1.6.Final.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-transport/4.1.6.Final
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-transport/4.1.6.Final/netty-transport-4.1.6.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.23.Final
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.23.Final
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.52.Final
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final.jar
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.52.Final
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final.pom
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.jar
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.pom
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.8.Final
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.8.Final/netty-all-4.1.8.Final.jar
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.8.Final/netty-all-4.1.8.Final.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.8.Final
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.8.Final/netty-all-4.1.8.Final.pom
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-all/4.1.8.Final/netty-all-4.1.8.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec-socks/4.0.24.Final
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec-socks/4.0.24.Final/netty-codec-socks-4.0.24.Final.jar
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec-socks/4.0.24.Final/netty-codec-socks-4.0.24.Final.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec-socks/4.0.24.Final
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec-socks/4.0.24.Final/netty-codec-socks-4.0.24.Final.pom
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-codec-socks/4.0.24.Final/netty-codec-socks-4.0.24.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.23.Final
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.23.Final/netty-parent-4.0.23.Final.pom
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.23.Final/netty-parent-4.0.23.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.24.Final
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.24.Final/netty-parent-4.0.24.Final.pom
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.24.Final/netty-parent-4.0.24.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.33.Final
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.33.Final/netty-parent-4.0.33.Final.pom
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.33.Final/netty-parent-4.0.33.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.52.Final
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.52.Final/netty-parent-4.0.52.Final.pom
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.0.52.Final/netty-parent-4.0.52.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.13.Final
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.13.Final/netty-parent-4.1.13.Final.pom
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.13.Final/netty-parent-4.1.13.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.16.Final
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.16.Final/netty-parent-4.1.16.Final.pom
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.16.Final/netty-parent-4.1.16.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.17.Final
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.17.Final/netty-parent-4.1.17.Final.pom
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.17.Final/netty-parent-4.1.17.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.6.Final
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.6.Final/netty-parent-4.1.6.Final.pom
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.6.Final/netty-parent-4.1.6.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.8.Final
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.8.Final/netty-parent-4.1.8.Final.pom
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty-parent/4.1.8.Final/netty-parent-4.1.8.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.5.Final
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.jar
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.5.Final
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.pom
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.4.0.Final
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.4.0.Final/netty-3.4.0.Final.jar
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.4.0.Final/netty-3.4.0.Final.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.4.0.Final
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.4.0.Final/netty-3.4.0.Final.pom
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.4.0.Final/netty-3.4.0.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.jar
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.pom
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.6.2.Final/netty-3.6.2.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.pom
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.pom
 
 
 %files
@@ -207,8 +265,18 @@ cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.F
 /usr/share/java/.m2/repository/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty-all/4.1.8.Final/netty-all-4.1.8.Final.jar
 /usr/share/java/.m2/repository/io/netty/netty-all/4.1.8.Final/netty-all-4.1.8.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty-buffer/4.1.6.Final/netty-buffer-4.1.6.Final.jar
+/usr/share/java/.m2/repository/io/netty/netty-buffer/4.1.6.Final/netty-buffer-4.1.6.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty-codec-http/4.1.6.Final/netty-codec-http-4.1.6.Final.jar
+/usr/share/java/.m2/repository/io/netty/netty-codec-http/4.1.6.Final/netty-codec-http-4.1.6.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty-codec-socks/4.0.24.Final/netty-codec-socks-4.0.24.Final.jar
 /usr/share/java/.m2/repository/io/netty/netty-codec-socks/4.0.24.Final/netty-codec-socks-4.0.24.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty-codec/4.1.6.Final/netty-codec-4.1.6.Final.jar
+/usr/share/java/.m2/repository/io/netty/netty-codec/4.1.6.Final/netty-codec-4.1.6.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty-common/4.1.6.Final/netty-common-4.1.6.Final.jar
+/usr/share/java/.m2/repository/io/netty/netty-common/4.1.6.Final/netty-common-4.1.6.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty-handler/4.1.6.Final/netty-handler-4.1.6.Final.jar
+/usr/share/java/.m2/repository/io/netty/netty-handler/4.1.6.Final/netty-handler-4.1.6.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty-parent/4.0.23.Final/netty-parent-4.0.23.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty-parent/4.0.24.Final/netty-parent-4.0.24.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty-parent/4.0.33.Final/netty-parent-4.0.33.Final.pom
@@ -219,6 +287,10 @@ cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/io/netty/netty/3.9.9.F
 /usr/share/java/.m2/repository/io/netty/netty-parent/4.1.17.Final/netty-parent-4.1.17.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty-parent/4.1.6.Final/netty-parent-4.1.6.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty-parent/4.1.8.Final/netty-parent-4.1.8.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty-resolver/4.1.6.Final/netty-resolver-4.1.6.Final.jar
+/usr/share/java/.m2/repository/io/netty/netty-resolver/4.1.6.Final/netty-resolver-4.1.6.Final.pom
+/usr/share/java/.m2/repository/io/netty/netty-transport/4.1.6.Final/netty-transport-4.1.6.Final.jar
+/usr/share/java/.m2/repository/io/netty/netty-transport/4.1.6.Final/netty-transport-4.1.6.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.jar
 /usr/share/java/.m2/repository/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.pom
 /usr/share/java/.m2/repository/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
